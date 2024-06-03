@@ -157,7 +157,8 @@ body.dark-theme{
 }
 
 .profile__perfil img{
-  width: 75px;
+  margin-top: auto;
+  width: 100%;
 }
 
 .profile__border{
@@ -255,7 +256,7 @@ body.dark-theme{
 }
 
 .button__small{
-  padding: .75rem;
+  /* padding: .75rem; */
   box-shadow: none;
 }
 
@@ -586,9 +587,6 @@ body.dark-theme{
     width: 120px;
     height: 120px;
   }
-  .profile__perfil img{
-    width: 90px;
-  }
   .profile__profession{
     margin-bottom: 1.5rem;
   }
@@ -646,6 +644,10 @@ body.dark-theme{
 }
 
 @media screen and (max-width: 576px) {
+  .filters__content{
+    column-gap: .1rem;
+  }
+
   .about__modal{
     max-width: 100%;
     margin: 0 auto;
